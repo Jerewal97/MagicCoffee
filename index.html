@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/logIn.html">
+    <link rel="stylesheet" href="/register.html">
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"
+    />
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous"  
+    referrerpolicy="no-referrer" 
+    />
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <i class="ri-cup-line"></i>
+            <span>Magic Coffee</span>
+        </a>
+        
+        <nav class="navbar">
+            <label for="toggle-menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>  
+            <input type="checkbox" id="toggle-menu" />
+
+            <ul class="navbar__list">
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <div class="navbar__main">
+                    <a href="/logIn.html" class="navbar__user">
+                        <i class="ri-user-line"></i> Iniciar Sesión
+                    </a>
+                    <a href="register.html">Registrarse</a>
+                </div>
+            </ul>    
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="hero">
+            <div class="hero__slogan">
+                <h1>Magic Coffee
+                    <br><span>El hechizo del sabor</span>
+                </h1>
+                <div class="hero__slogan-comp">
+                    <p>
+                        ¿Te gustaría probar un café diferente, con un sabor único y una presentación espectacular? Entonces tienes que visitar Magic Coffee, la tienda de café donde cada taza es una obra de arte. En Magic Coffee encontrarás una gran variedad de cafés de calidad, preparados con maestría y creatividad por nuestros baristas. Además, podrás disfrutar de un ambiente acogedor y relajado, con música, libros y juegos para compartir. No esperes más y ven a Magic Coffee, donde el café se convierte en magia.
+                    </p>
+                    <img src="/assets/herobg.jpg.jpg" alt="cafe"><br><br>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="products__info">
+                <h1>Productos</h1> 
+                <p>
+                    Aquí encontrarás una exquisita variedad de café proveniente de los rincones más destacados de América Latina.
+                    ¡Déjate seducir por la diversidad y la calidad que encontrarás en nuestros productos!
+                </p>
+            </div>
+            <div class="card">
+                <div class="cards">
+                    <div class="face front">
+                        <img src="/assets/card-colombia.png" alt="Café Colombia">
+                        <h3>Café de Colombia</h3>
+                    </div>
+    
+                    <div class="face back">
+                        <h3>Café de Colombia</h3>
+                        <p>$18</p>
+                        <div class="card__buy">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="cards">
+                    <div class="face front">
+                        <img src="/assets/card-brasil.png" alt="Café Brasil">
+                        <h3>Café de Brasil</h3>
+                    </div>
+    
+                    <div class="face back">
+                        <h3>Café de Brasil</h3>
+                        <p>$20</p>
+                        <div class="card__buy">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="cards">
+                    <div class="face front">
+                        <img src="/assets/card-peru.png" alt="Café Perú">
+                        <h3>Café de Perú</h3>
+                    </div>
+    
+                    <div class="face back">
+                        <h3>Café de Perú</h3>
+                        <p>$13</p>
+                        <div class="card__buy">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="cards">
+                    <div class="face front">
+                        <img src="/assets/card-guatemala.png" alt="Café Nicaragua">
+                        <h3>Café de Guatemala</h3>
+                    </div>
+    
+                    <div class="face back">
+                        <h3>Café de Guatemala</h3>
+                        <p>$11</p>
+                        <div class="card__buy">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about__container">
+                <h1 class="about__tittle">Nuestra Historia</h1>
+                <div class="about__text">
+                    <p>
+                        Sumérgete en el mundo mágico del café en 'Magic Coffee', un lugar que ha dejado una huella profunda en la vibrante ciudad costera de Mar del Plata desde su resurgimiento en honor a su fundador. La historia de este café se remonta a 1997, cuando abrió sus puertas bajo el nombre de 'El Marplatense'. Durante años, fue un refugio para los amantes del café y un punto de encuentro para la comunidad local.
+                    </p>
+                    <br>
+                    <p>
+                        Desafortunadamente, debido a los desafíos económicos que enfrentó Argentina en aquellos tiempos, 'El Marplatense' tuvo que cerrar sus puertas. Sin embargo, la llama del café nunca se extinguió en los corazones de la familia fundadora. Los nietos del fundador, inspirados por los recuerdos de su abuelo y los "cafés mágicos" que solía preparar, decidieron resurgir el local.
+                    </p>
+                    <br>      
+                    <p>
+                        En honor a su abuelo y a su pasión por el café, decidieron renombrar el café como 'Magic Coffee'. Este nombre refleja la esencia de las experiencias únicas y memorables que se pueden vivir en este lugar especial. Desde entonces, 'Magic Coffee' ha recuperado su antiguo esplendor y se ha convertido en un punto de referencia en la ciudad.
+                        El café ofrece una amplia selección de granos de café de origen local e internacional, cuidadosamente seleccionados y preparados con la magia de la experiencia de generaciones anteriores. Cada taza de café que se sirve en 'Magic Coffee' es una invitación a un viaje sensorial, donde los aromas embriagadores y los sabores cautivadores se combinan para crear una experiencia única para los amantes del café.
+                    </p>
+                    <br>
+                    <p>
+                        Más que un simple lugar para tomar café, 'Magic Coffee' se ha convertido en un espacio donde las personas se reúnen, se conectan y crean recuerdos duraderos. Ya sea disfrutando de una taza de café perfectamente preparada, sumergiéndose en la magia de los eventos culturales o compartiendo momentos especiales con seres queridos, este café es un verdadero tesoro en el corazón de Mar del Plata.
+                    </p>
+                    <br>
+                    <p>
+                        La historia de 'Magic Coffee' es un tributo a la pasión, la perseverancia y el amor por el café transmitidos de generación en generación. A medida que siguen escribiendo su historia, el legado del abuelo vive en cada taza de café que se sirve, recordándonos la importancia de encontrar la magia en los pequeños placeres de la vida.
+                    <p>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="content">
+                <h1 class="contact__logo">Contact <span>Us</span></h1>
+
+                <div class="contact__wrapper">
+                    <div class="contact__form">
+                        <h3>Contactanos</h3>
+    
+                        <form>
+                            <p>
+                                <label>Nombre</label>
+                                <input type="text" name="nombre">
+                            </p>
+    
+                            <p>
+                                <label>Email</label>
+                                <input type="email" name="email">
+                            </p>
+    
+                            <p>
+                                <label>Telefono</label>
+                                <input type="tel" name="telefono">
+                            </p>
+    
+                            <p>
+                                <label>Asunto</label>
+                                <input type="text" name="asunto">
+                            </p>
+    
+                            <p class="block">
+                                <label>Mensaje</label>
+                                <textarea name="mensaje" rows="3"></textarea>
+                            </p>
+    
+                            <p class="block">
+                                <button type="submit">Enviar</button>
+                            </p>
+                        </form>
+                    </div>
+    
+                    <div class="contact__info">
+                        <h4>Más información</h4>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot fa-2xs"> Belgrano 2551</i>
+                            </li>
+    
+                            <li>
+                                <i class="fa-solid fa-phone fa-2xs"> 4756165</i>
+                            </li>
+    
+                            <li>
+                                <i class="fa-solid fa-envelope fa-2xs"> magic.coffeemdq@gmail.com</i>
+                            </li>
+                        </ul>
+    
+                        <p>Para cualquier información no dudes en contactarnos. Si querés festejar algún evento, tenés que pedir con antelación</p>
+                        <p>Magic Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container__footer">
+                <div class="footer__box">
+                    <div class="footer__logo">
+                        <a href="index.html" class="footer__cup">
+                            <i class="ri-cup-line"></i>
+                        </a>
+                    </div>
+                    <div class="footer__terms">
+                        <p>
+                            Productos y Servicios: Nuestra tienda de café ofrece una variedad de productos y servicios relacionados con el café. Al realizar una compra o utilizar nuestros servicios, aceptas los términos y condiciones establecidos en nuestra página Web.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__box">
+                    <h2>Más información</h2>
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Políticas de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+                <div class="footer__box">
+                    <h2>Compañia</h2>
+                    <a href="#about">Acerca de</a>
+                    <a href="#">Trabajo</a>
+                    <a href="#">Productos</a>
+                </div>
+                <div class="footer__box">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"><i class="fab fa-facebook-square"> Facebook</i></a>
+                    <a href="#"><i class="fab fa-twitter-square"> Twitter</i></a>
+                    <a href="#"><i class="fab fa-instagram-square"> Instagram</i></a>
+                </div>
+            </div>
+
+            <div class="footer__copy">
+                <hr>
+                <p>Todos los derechos reservados &copy; 2023</p>
+                <span>Magic Coffee</span>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
