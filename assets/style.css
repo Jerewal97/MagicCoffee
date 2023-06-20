@@ -481,7 +481,7 @@ footer {
         align-items: center;
         justify-content: center;
         display: none;
-        gap: 80px;
+        gap: 30px;
         font-size: 2rem;
     }
 
@@ -491,7 +491,7 @@ footer {
         align-items: center;
         margin: 0 5px;
         order: 2;
-        gap: 100px;
+        gap: 50px;
         font-size: 3rem;
     }
 
