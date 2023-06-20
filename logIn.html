@@ -1,20 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Coffee</title>
+    <title>Ingresar</title>
+    <link rel="shortcut icon" href="/assets/logoCafe.png" type="image/x-icon">
     <link rel="stylesheet" href="/assets/logIn.css">
-    <link rel="icon" type="image/png" href="/assets/coffee.png">
-    <link rel="stylesheet" href="index.html">
+    
     <link 
     href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"
-    />
-
-    <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
     />
 </head>
 <body>
@@ -23,36 +17,33 @@
             <i class="ri-cup-line"></i>
             <span>Magic Coffee</span>
         </a>
+        
+        <nav class="navbar">
+            <a href="index.html">Volver</a>
+        </nav>
+    </header>
+    
+    <form class="form">
+        <h2 class="form__title">Inicia Sesión</h2>
+        <p class="form__paragraph">¿Aún no tienes una cuenta? <a href="register.html" class="form__link">Entra aquí</a></p>
 
-        <ul class="navbar">
-            <li><a href="index.html">Volver</a></li>
-        </ul>
-</header>
-    
-    <section>
-        <div class="box">
-            <form action="">
-                <h2>Iniciar sesión</h2>
-                <div class="input__box">
-                    <input type="text" required>
-                    <span>Usuario</span>
-                    <i></i>
-                </div>
-    
-                <div class="input__box">
-                    <input type="password" required>
-                    <span>Ingresar contraseña</span>
-                    <i></i>
-                </div>
-    
-                <input type="submit" value="Ingresar">
-    
-                <div class="links">
-                    <a href="#">Olvidé la contraseña</a>
-                    <a href="register.html">Registrarse</a>
-                </div>
-            </form>
+        <div class="form__container">
+
+
+            <div class="form__group">
+                <input type="email" id="user" class="form__input" placeholder=" ">
+                <label for="user" class="form__label">Email</label>
+                <span class="form__line"></span>    
+            </div>
+
+            <div class="form__group">
+                <input type="text" id="password" class="form__input" placeholder=" ">
+                <label for="password" class="form__label">Contraseña</label>
+                <span class="form__line"></span>    
+            </div>
+
+            <input type="submit" class="form__submit" value="Entrar">
         </div>
-    </section>
+    </form>
 </body>
 </html>

@@ -454,6 +454,10 @@ footer {
 
 /* MEDIAS QUERYS  */
 
+@media (max-width: 1900px) {
+    /* TODO: CENTRAR LA PAGINA WEB A PARTIR DE ESTA MEDIDA */
+}
+
 @media (max-width: 1199.98px) {
     .hero__slogan-comp {
         margin-top: 100px;
@@ -487,12 +491,11 @@ footer {
 
     .navbar ul {
         width: 100%;
-        height: calc(50vh - 100px);
-        background: transparent;
-        backdrop-filter: blur(6px);
+        height: calc(70vh - 100px);
+        background: var(--bg-color);
         position: absolute;
         top: 100px;
-        left: 0;
+        left: -10px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
